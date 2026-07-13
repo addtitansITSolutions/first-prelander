@@ -1,0 +1,90 @@
+/*==========================
+        FOOTER
+===========================*/
+
+.footer{
+
+    background:#111827;
+
+    color:#ffffff;
+
+    padding:60px 0 30px;
+
+}
+
+.footer-content{
+
+    max-width:750px;
+
+    margin:auto;
+
+    text-align:center;
+
+}
+
+.footer-logo{
+
+    font-size:32px;
+
+    font-weight:700;
+
+    margin-bottom:20px;
+
+}
+
+.footer-text{
+
+    color:#C9CDD4;
+
+    line-height:1.8;
+
+    font-size:15px;
+
+    margin-bottom:30px;
+
+}
+
+.footer-divider{
+
+    width:80px;
+
+    height:2px;
+
+    background:#2563EB;
+
+    margin:0 auto 25px;
+
+}
+
+.copyright{
+
+    color:#9CA3AF;
+
+    font-size:14px;
+
+}
+
+
+
+
+@media(max-width:768px){
+
+.footer{
+
+    padding:50px 0 25px;
+
+}
+
+.footer-logo{
+
+    font-size:28px;
+
+}
+
+.footer-text{
+
+    font-size:14px;
+
+}
+
+}
