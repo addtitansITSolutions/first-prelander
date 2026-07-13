@@ -1,0 +1,110 @@
+/* ==========================
+    BENEFITS
+========================== */
+
+.benefits{
+
+    padding:100px 0;
+
+    background:#F8FAFC;
+
+}
+
+.benefits-grid{
+
+    margin-top:60px;
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:30px;
+
+}
+
+.benefit-card{
+
+    background:#fff;
+
+    padding:35px;
+
+    border-radius:18px;
+
+    border:1px solid #E5E7EB;
+
+    transition:.35s;
+
+}
+
+.benefit-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 18px 40px rgba(0,0,0,.08);
+
+}
+
+.benefit-icon{
+
+    width:70px;
+
+    height:70px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:30px;
+
+    background:#EFF6FF;
+
+    margin-bottom:25px;
+
+}
+
+.benefit-card h3{
+
+    font-size:24px;
+
+    margin-bottom:15px;
+
+}
+
+.benefit-card p{
+
+    color:#6B7280;
+
+    line-height:1.8;
+
+}
+
+
+
+
+@media(max-width:768px){
+
+.benefits{
+
+    padding:70px 0;
+
+}
+
+.benefits-grid{
+
+    grid-template-columns:1fr;
+
+    gap:20px;
+
+}
+
+.benefit-card{
+
+    padding:28px;
+
+}
+
+}
