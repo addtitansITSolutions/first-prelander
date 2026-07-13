@@ -408,6 +408,7 @@ section{
 .zip-form input{
 
     width:100%;
+    min-height:58px;
 
 }
 
